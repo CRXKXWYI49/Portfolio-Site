@@ -1,14 +1,23 @@
-import React from 'react'
-import HeroSection from '@/components/pages/hero-section'
-import { AboutMe } from '@/components/pages/about-me'
+import { SiteFrame } from "@/components/site/site-frame";
+import Hero from "@/components/sections/hero";
+import About from "@/components/sections/about";
+import Work from "@/components/sections/work";
+import Stack from "@/components/sections/stack";
+import Research from "@/components/sections/research";
+import Contact from "@/components/sections/contact";
 
-const page = () => {
+export default function Page() {
   return (
-    <section>
-      <HeroSection />
-      <AboutMe />
-    </section>
-  )
+    <>
+      <SiteFrame />
+      <main className="relative">
+        <Hero />
+        <About />
+        <Work />
+        <Stack />
+        <Research />
+        <Contact />
+      </main>
+    </>
+  );
 }
-
-export default page

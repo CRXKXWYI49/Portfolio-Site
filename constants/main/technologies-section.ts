@@ -49,7 +49,7 @@ const skills = [
           "Typescript",
           "Rust",
           "PostgreSQL",
-          "Reddis",
+          "Redis",
           "Docker",
           "Next.JS",
           "Git/Github",

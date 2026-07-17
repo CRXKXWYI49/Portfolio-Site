@@ -2,9 +2,10 @@
 
 const heroTypeAnimationList: string[] = [
     "Physics Research", 
-    "Software Development",
+    "Machine Learning",
     "Mechanical Engineering",
-    "Physics Major @ UCSD",
+    "Software Engineering",
+    "B.S. Physics @ UCSD",
 ];
 
 const mainNavLinks = [

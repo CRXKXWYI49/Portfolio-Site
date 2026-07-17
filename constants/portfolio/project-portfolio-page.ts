@@ -85,7 +85,7 @@ const engineeringProjects = [
     date: "Jun 2023 - Oct 2023"  
   },
   {
-    title: "Dell R730 Lab Server",
+    title: "Lab Compute Server",
     images: [dellr730],
     description: `A 28 Core, 128 GB rack mounted server with 72 TB of SAS and NAS storage for data processing, storage, and 
                   other IT purposes.`,
